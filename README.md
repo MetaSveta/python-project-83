@@ -7,6 +7,11 @@
 Учебный проект Хекслета: https://ru.hexlet.io/programs/python
 Как это должно работать: https://files.hexlet.app/a/vfyo3a
 
+## Демо
+
+Приложение доступно по адресу: [Page Analyzer](https://page-analyzer-0eon.onrender.com)
+
+
 ## Стек
 
 - Python
