@@ -1,11 +1,17 @@
 PORT ?= 8000
 
-setup: install
-
 install:
 	uv sync
+	npm ci
 
-build: install
+# проверка готовит приложение к тестам
+setup: install build-css
+
+# образ на render собирается этой целью
+build: install build-css
+
+build-css:
+	npm run build:css
 
 dev:
 	uv run flask --debug --app page_analyzer:app run
